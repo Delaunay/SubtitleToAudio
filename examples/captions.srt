@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:04,004
+By default unreal engine has auto exposure enabled
+
+2
+00:00:04,037 --> 00:00:08,074
+ that means that depending on how much is seem on the map
+
+3
+00:00:08,074 --> 00:00:10,074
+the brightness is going to change
+
+4
+00:00:10,074 --> 00:00:13,710
+you will probably want to change that
+
+5
+00:00:13,710 --> 00:00:18,882
+to disable it simply drag and drop and PostProcessVolume
+
+6
+00:00:18,882 --> 00:00:26,055
+Go to "Exposure" and set  "Min-Max Brightness" to 1
+
+7
+00:00:26,055 --> 00:00:30,525
+and make the post process volume unbound
+
+8
+00:00:30,525 --> 00:00:34,280
+this will disable auto exposure for the entire map
+
+9
+00:00:34,280 --> 00:00:39,285
+now the brightness will not change
+
